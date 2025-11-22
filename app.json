@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Pantorama",
+    "slug": "pantorama-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#E8E0F5"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pantorama.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E8E0F5"
+      },
+      "package": "com.pantorama.app",
+      "permissions": [
+        "RECORD_AUDIO",
+        "NOTIFICATIONS"
+      ]
+    },
+    "web": {},
+    "plugins": [
+      "expo-av",
+      [
+        "expo-notifications",
+        {
+          "color": "#8B7EC8"
+        }
+      ]
+    ]
+  }
+}
+
